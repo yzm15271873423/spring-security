@@ -19,7 +19,7 @@ public class Test1 {
     @Test
     public void test1(){
         PasswordEncoder encoder = new BCryptPasswordEncoder();
-        String s = encoder.encode("zhangsan");
+        String s = encoder.encode("lisi");
         System.out.println(s);
 
 
